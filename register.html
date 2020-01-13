@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>SM | Register</title>
+		<link rel="shortcut icon"  type="image/png" href="blue-pulse.ico" />
+		<link rel="stylesheet" type="text/css" href="register.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+		<link rel = "stylesheet" type = "text/css" href="animate.css"/>
+	</head>
+	<body>
+		<div class="bar">
+			<div class="navbar"> 
+				<div class="home"> 
+					<ul>
+						<li><a href="home.html">Home</a></li>
+					</ul>
+				</div>
+				<div class="links"> 
+					<ul>
+						<li>Follow us on</li>
+						<li><a class="fa fa-spotify" href="https://open.spotify.com/user/jwsaap3nmltnpe7mo1954m1co?si=tulRv3rnQFeyYEmPa3WdsA"></a></li>
+						<li><a class="fa fa-instagram" href="https://www.instagram.com/andreeavoicu19/"></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="formLogin">
+					<h1 id="log"> Create Account </h1>
+					<br><br>
+					<form id="form" action="/" method="get">
+						<label for="username" class="icon"><i class="fa fa-user"></i></label>
+						<input id="username" name="username" type="text" placeholder="username">
+						<label for="password" class="icon"><i class="fa fa-unlock-alt"></i></label>
+						<input id="password" name="password" type="password" placeholder="password">
+						<label for="email" class="icon"> <i class="fa fa-envelope"></i> </label>
+           				<input id="email" name="email" type="email" placeholder="Email">
+
+           				<input type="radio" name="gender" value="male"> Male<br>
+            			<input type="radio" name="gender" value="female"> Female<br><br>
+
+           				<label for="tel" class="icon"> <i class="fa fa-phone"></i> </label>
+            			<input type="tel" name="phone" pattern="[0-9]{4} [0-9]{3} [0-9]{3}" placeholder="Phone number"><br>
+						
+						<input type="range" name="points" min="0" max="100" id="range"> Music Interest <br><br>
+						<br><br><br>
+						<button type="submit">Submit</button>
+						<br>
+
+						<a class="back" href="contact.html">LOGIN FORM</a>
+						<br>
+					</form>
+					<div id="error"></div>
+					<br>
+			</div> 
+		</div>
+
+		<script type="text/javascript" src="register.js"></script>
+
+	</body>
+</html>
